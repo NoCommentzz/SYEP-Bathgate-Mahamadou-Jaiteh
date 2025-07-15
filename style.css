@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:teal;
+    color:#333;
+    text-align: center;
+    line-height: 1.5; 
+}
+
+.section{
+    padding:10px 15px
+}
+
+.hero{
+    padding:20px 15px
+}
+
+.hero h1{
+    font-size:30px;
+}
+
+.grid {
+    display: grid;
+    gap: 15px
+}
+
+.grid div{
+    background-color:rgb(8, 120, 172);
+    padding: 15px;
+    border-radius: 480px
+}
