@@ -34,3 +34,17 @@ body{
     border-radius: 480px
 }
 
+@media (max-width: 768px){
+    .hero h1{font: size 80px;}
+    body{background-color: cornflowerblue;} 
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero img{
+    border-radius: 50%;
+}
+
