@@ -25,17 +25,17 @@ body{
 
 .grid {
     display: grid;
-    gap: 15px
+    gap: 15px;
 }
 
 .grid div{
     background-color:rgb(8, 120, 172);
     padding: 15px;
-    border-radius: 480px
+    border-radius: 480px;
 }
 
 @media (max-width: 768px){
-    .hero h1{font: size 80px;}
+    .hero h1{font-size: 80px;}
     body{background-color: cornflowerblue;} 
 }
 
