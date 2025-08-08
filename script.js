@@ -3,13 +3,13 @@ const reviews = [
     id: 1,
     name: 'Ngandou',
     job: 'Teacher',
-    img: 'IMG_2632.jpeg',
+    img:  '',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
 },
 
 {
     id: 1,
-    name: 'Ms. Franco',
+    name: 'Portune',
     job: 'Teacher',
     img: '#',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
@@ -18,7 +18,7 @@ const reviews = [
 {
     id: 1,
     name: 'Edrian',
-    job: 'Teacher',
+    job: 'Coworker',
     img: '#',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
 },
@@ -26,7 +26,7 @@ const reviews = [
 ];
 
 //select items
-const img = document.getElementById('person-img');
+const img = document.getElementById('insert image here');
 const author = document.getElementById('author');
 const job = document.getElementById('job');
 const info = document.getElementById('info');
@@ -38,7 +38,7 @@ let currentItem = 0;
 
 window.addEventListener('DOMContentLoaded', function(){
     const item = reviews[curentItem];
-    img.src = item.img;
+    img.src = item.img;IMG
     author.textContent = item.name;
     job.textContent = item.job;
     info.textContent = item.text;
