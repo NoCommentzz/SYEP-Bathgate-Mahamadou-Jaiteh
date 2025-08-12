@@ -1,26 +1,26 @@
 const reviews = [
 {
     id: 1,
-    name: 'Ngandou',
-    job: 'Teacher',
-    img:  '',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
-},
-
-{
-    id: 1,
     name: 'Portune',
     job: 'Teacher',
-    img: '#',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
+    img:  'IMG_1781.jpeg' ,
+    text: 'You had excellent habits, especially earlier on in the year. You consistently came to revise old assessments and improve your understanding of concepts we covered.',
 },
 
 {
     id: 1,
-    name: 'Edrian',
-    job: 'Coworker',
+    name: 'Mr.L',
+    job: 'Teacher',
     img: '#',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
+    text: 'Your doing a great job in class and continue to be a positive influence to those in the class and continue to ask questions. Continue to be attentive in class and keep up the great effort.',
+},
+
+{
+    id: 1,
+    name: 'Ms.Fofana',
+    job: 'Teacher',
+    img: '#',
+    text: 'MJ is a remakable helper in the classroon, consistently stepping up to support both peers and teachers. His leadership skills shine brightly as he encourages others to share their thoughts.',
 },
 
 ];
