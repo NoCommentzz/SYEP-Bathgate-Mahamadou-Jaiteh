@@ -106,7 +106,7 @@ h4 {
 }
 p {
  margin-bottom: 1.25rem;
- color: var(--clr-black);
+ color: var(--clr-white);
 }
 @media screen and (min-width: 800px) {
  h1 {
@@ -175,7 +175,7 @@ main {
 .underline {
  height: 0.25rem;
  width: 5rem;
- background: var(--clr-primary-5);
+ background: var(--clr-primary-4);
  margin-left: auto;
  margin-right: auto;
 }
@@ -185,7 +185,7 @@ main {
  margin: 0 auto;
 }
 .review {
- background: var(--clr-primary-4);
+ background: var(--clr-red-dark);
  padding: 1.5rem 2rem;
  border-radius: var(--radius);
  box-shadow: var(--light-shadow);
@@ -197,15 +197,15 @@ main {
 }
 .img-container {
  position: relative;
- width: 50px;
- height: 50px;
+ width: 10000px;
+ height: 5000px;
  border-radius: 50%;
  margin: 0 auto;
  margin-bottom: 1.5rem;
 }
 #person-img {
- width: 50px;
- height: 50px;
+ width: 400px;
+ height: 400px;
  display: block;
  height: 100%;
  object-fit: cover;
@@ -225,8 +225,8 @@ main {
  place-items: center;
  border-radius: 50%;
  transform: translateY(25%);
- background: var(--clr-primary-5);
- color: var(--clr-green-light);
+ background: var(--clr-red-dark);
+ color: var(--clr-red-dark);
 }
 .img-container::before {
  content: "";
@@ -266,7 +266,7 @@ main {
 }
 .random-btn {
  margin-top: 0.5rem;
- background: var(--clr-primary-10);
+ background: var(--clr-red-dark);
  color: var(--clr-primary-5);
  padding: 0.25rem 0.5rem;
  text-transform: capitalize;
@@ -277,6 +277,6 @@ main {
 }
 .random-btn:hover {
  background: var(--clr-primary-5);
- color: var(--clr-primary-1);
+ color: var(--clr-primary-4);
 }
 
