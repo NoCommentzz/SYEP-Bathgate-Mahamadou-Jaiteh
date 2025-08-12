@@ -106,7 +106,7 @@ h4 {
 }
 p {
  margin-bottom: 1.25rem;
- color: var(--clr-grey-5);
+ color: var(--clr-black);
 }
 @media screen and (min-width: 800px) {
  h1 {
@@ -185,7 +185,7 @@ main {
  margin: 0 auto;
 }
 .review {
- background: var(--clr-white);
+ background: var(--clr-primary-4);
  padding: 1.5rem 2rem;
  border-radius: var(--radius);
  box-shadow: var(--light-shadow);
@@ -197,14 +197,15 @@ main {
 }
 .img-container {
  position: relative;
- width: 150px;
- height: 150px;
+ width: 50px;
+ height: 50px;
  border-radius: 50%;
  margin: 0 auto;
  margin-bottom: 1.5rem;
 }
 #person-img {
- width: 100%;
+ width: 50px;
+ height: 50px;
  display: block;
  height: 100%;
  object-fit: cover;
@@ -225,7 +226,7 @@ main {
  border-radius: 50%;
  transform: translateY(25%);
  background: var(--clr-primary-5);
- color: var(--clr-white);
+ color: var(--clr-green-light);
 }
 .img-container::before {
  content: "";

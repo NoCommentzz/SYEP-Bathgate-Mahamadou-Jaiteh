@@ -11,7 +11,7 @@ const reviews = [
     id: 1,
     name: 'Mr.L',
     job: 'Teacher',
-    img: '#',
+    img: 'https://media.licdn.com/dms/image/v2/C4D03AQH1hb_YiDgvkQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662519432541?e=1758153600&v=beta&t=MC62_CrVz7GcvVBxuiM9GyHoiLj5tp1Gl7DgPVbbCoU',
     text: 'Your doing a great job in class and continue to be a positive influence to those in the class and continue to ask questions. Continue to be attentive in class and keep up the great effort.',
 },
 
@@ -19,7 +19,7 @@ const reviews = [
     id: 1,
     name: 'Ms.Fofana',
     job: 'Teacher',
-    img: '#',
+    img: 'https://media.licdn.com/dms/image/v2/C4D03AQHVr0vTj5Fauw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1526950414817?e=1758153600&v=beta&t=goeQLEr5M130XOKEZLny-_6HZ_mIFaB9PRof8aloJEY',
     text: 'MJ is a remakable helper in the classroon, consistently stepping up to support both peers and teachers. His leadership skills shine brightly as he encourages others to share their thoughts.',
 },
 
@@ -38,7 +38,7 @@ let currentItem = 0;
 
 window.addEventListener('DOMContentLoaded', function(){
     const item = reviews[curentItem];
-    img.src = item.img;IMG
+    img.src = item.img;
     author.textContent = item.name;
     job.textContent = item.job;
     info.textContent = item.text;
